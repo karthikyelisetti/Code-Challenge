@@ -8,6 +8,7 @@ for (i in arr6) {
         console.log(arr6[i]);
     }
 }
+
 //find - This will return the first element greater than 20
 var val = arr6.find(function(e1) {
     return e1 > 20;
