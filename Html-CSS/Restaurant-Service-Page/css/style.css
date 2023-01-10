@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation section */
+.logo-img {
+  width: 300px;
+  margin-left: 50px;
+}
+
+.image-hdr {
+  width: 21px;
+  margin-left: 15px;
+}
+
+/* header Background image */
+.banner-img {
+  position: relative;
+  width: 100%;
+  height: 654px;
+  background-image: url('../images/food-restaurant.png');
+}
+
+/* Header and Navbar links */
+#navbarText {
+  font-size: 18px;
+}
+
+#hdrText {
+  font-size: 21px;
+}
+
+/* Banner text */
+.text-msg-1 {
+  position: absolute;
+  margin: 200px 540px;
+  font-size: 40px;
+  align-content: center;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+.text-msg-2 {
+  position: absolute;
+  top: 390px;
+  font-size: 40px;
+  left: 540px;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+
+/* Address section */
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 5px;
+}
+
+.address .address-box {
+  border: 3px solid lightgrey;
+  margin: 0 10px;
+  width: 480px;
+  height: 300px;
+  font-size: 18px;
+  padding-top: 30px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Custom bullet image */
+#bullet-img {
+  font-size:6px;
+  padding: 3px;
+}
+
+/* Image expander*/
+#img-expander {
+  float: right;
+  padding-right: 30px;
+  height: 36px;
+}

@@ -1,0 +1,62 @@
+
+body {
+  background-image: url("../images/clouds-background.webp");
+}
+
+.tables {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 5px solid cornflowerblue;
+  border-radius: 9px;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+#text-box {
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px;
+  width: 240px;
+  height: 20px;
+  transition-property: border;
+  transition: 750ms;
+}
+
+#text-box:hover {
+  border: 5px solid blueviolet;
+}
+
+.table-header {
+  padding: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.btn {
+  padding: 12px;
+  width: 100px;
+  margin-right: 81px;
+}
+
+.loading-wheel {
+  height: 30px;
+  width: 30px;
+  margin-right: 50px;
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(2turn);
+  }
+}
+
+#image-text {
+  font-size: 15px;
+  margin-left: 150px;
+  word-wrap: break-word;
+}

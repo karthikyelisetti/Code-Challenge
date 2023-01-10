@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        margin: 200px 200px;
+      }
+
+      span {
+        background-color: lightskyblue;
+        border: 2px solid;
+        display: table-cell;
+        padding: 30px;
+        font-size: 30px;
+        border-bottom: 5px solid black;
+        animation: wave 3s infinite;
+      }
+
+      @keyframes wave {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-30px);
+          border-bottom: 10px solid yellowgreen;
+        }
+        100% {
+          transform: translateY(0px);
+          border-bottom: 5px solid black;
+        }
+      }
+
+      .h {
+        color: red;
+        animation-delay: 0.1s;
+      }
+      .e {
+        color: red;
+        animation-delay: 0.1s;
+      }
+      .r {
+        color: red;
+        animation-delay: 0.3s;
+      }
+      .o {
+        color: red;
+        animation-delay: 0.5s;
+      }
+      .v {
+        color: red;
+        animation-delay: 0.7s;
+      }
+      .i {
+        color: red;
+        animation-delay: 0.9s;
+      }
+      .r {
+        color: red;
+        animation-delay: 1.1s;
+      }
+      .e {
+        color: red;
+        animation-delay: 1.3s;
+      }
+      .d {
+        color: red;
+        animation-delay: 1.5s;
+      }
+
+    </style>
+</head>
+<body>
+    <span class="h">H</span>
+    <span class="e">E</span>
+    <span class="r">R</span>
+    <span class="o">O</span>
+    <span class="v">V</span>
+    <span class="i">I</span>
+    <span class="r">R</span>
+    <span class="e">E</span>
+    <span class="d">D</span>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">    
+</head>
+<body>
+  <div class="Container">    
+    <section class="login-form">
+      <form id="login" action="">
+        <table class="tables">
+          <th class="table-header">
+            Login
+          </th>
+          <tr>
+            <td><input type="text" class="username" name="username" id="text-box" placeholder="Username" /></td>        
+          </tr>
+          <tr>
+            <td><input type="email" class="email" name="email" id="text-box" placeholder="Email Address" mandatory="required" /></td>        
+          </tr>
+          <tr>
+            <td><input type="password" class="password" name="password" id="text-box" placeholder="Password" /></td>        
+          </tr>
+          <tr>
+            <td id="tdata">
+                <button class="btn" type="button">Submit</button>
+                <img src="./images/loading-icon.png" alt="Loading" class="loading-wheel" /><br />
+                <span id="image-text">Waiting for network...</span>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>     
+  </div>
+</body>
+</html>

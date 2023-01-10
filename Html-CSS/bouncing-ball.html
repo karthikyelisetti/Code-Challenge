@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <style>
+            body {
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              height: 300px;
+            }
+            .ball {
+              border-radius: 50%;
+              background-color: violet;
+              height: 100px;
+              width: 100px;  
+              animation: bouncing-ball 3s ease-in 1s infinite;
+            }
+            @keyframes bouncing-ball {
+              0%, 50%, 100% {
+                transform: translateY(0);
+              }
+              40% {
+                transform: translateY(-100px);
+              }
+              60% {
+                transform: translateY(-30px);
+              }
+            }
+        </style>
+    </head>
+    <body>
+      <div class="ball"></div>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+
+
+
+body {
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+caption {
+    text-align: center;
+    background-color: yellow;
+}
+
+td {
+    padding: 5px 25px;
+}
+
+th {
+    font-size: 42px;
+    background-color: yellow;
+}
+
+.no-border {
+    border: none;
+}
+
+/*Adding background color and text color properties to each cell*/
+
+/*cells - 1,7,8 */
+.bg-orange-txt-green {
+    background-color: #FFB619;
+    color: green;
+}
+
+/*cells - 6,15-16,34 */
+.bg-orange-txt-black {
+    background-color: #FFB619;
+    color: black;
+}
+
+/*cells - 2,10,18,36,54,86 */
+.bg-gray-txt-green {
+    background-color: lightgray;
+    color: green;
+}
+
+/*cells - 3 */
+.bg-pink-txt-green {
+    background-color: #f1b2dc;
+    color: green;
+}
+
+/*cells - 11,19,37 */
+.bg-pink-txt-black {
+    background-color: #f1b2dc;
+    color: black;
+}
+
+/*cells - 55,87 */
+.bg-pink-txt-blue {
+    background-color: #f1b2dc;
+    color: blue;
+}
+
+/*cells - 4 */
+.bg-blue-txt-green {
+    background-color: #00bce3;
+    color: green;
+}
+
+/*cells - 12,20,38,56,88 */
+.bg-blue-txt-black {
+    background-color: #00bce3;
+    color: black;
+}
+
+/*cells - 21-30,39-42,44-48,72-79 */
+.bg-mustard-txt-black {
+    background-color: #fee591;
+    color: black;
+}
+
+/*cells - 43,104-112 */
+.bg-mustard-txt-red {
+    background-color: #fee591;
+    color: red;
+}
+
+/*cells - 80 */
+.bg-mustard-txt-blue {
+    background-color: #fee591;
+    color: blue;
+}
+
+/*cells - 5,14,32-33,51-52,84 */
+.bg-brown-txt-black {
+    background-color: #b07c4F;
+    color: black;
+}
+
+/*cells - 13,49-50,81-83 */
+.bg-green-txt-black {
+    background-color: greenyellow;
+    color: black;
+}
+
+/*cells - 31 */
+.bg-green-txt-blue {
+    background-color: greenyellow;
+    color: blue;
+}
+
+/*cells - 57-60,62-71,89-92 */
+.bg-pale-pink-txt-black {
+    background-color: #ffeff1;
+    color: black;
+}
+
+/*cells - 61,93-103 */
+.bg-pale-pink-txt-red {
+    background-color: #ffeff1;
+    color: red;
+}
+
+/*cells - 113-118 */
+.bg-white-txt-red {
+    background-color: white;
+    color: red;
+}
+
+/*cells - 9,17 */
+.bg-cream-txt-green {
+    background-color: #E3D4AD;
+    color: green;
+}
+
+/*cells - 35 */
+.bg-cream-txt-blue {
+    background-color: #E3D4AD;
+    color: blue;
+}
+
+/*cells - 53,85 */
+.bg-cream-txt-black {
+    background-color: #E3D4AD;
+    color: black;
+}
