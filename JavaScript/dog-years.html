@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Years</title>
+</head>
+<body>
+  <p>
+    Dogs mature at a faster rate than human beings. We often say a dog's age can be calculated in “dog years” to account for their growth compared to a human of the same age. In some ways we could say, time moves quickly for dogs — 8 years in a human's life equates to 45 years in a dog's life. How old would you be if you were a dog?
+    Here's how you convert your age from “human years” to “dog years”:
+    <ul>
+      <li>The first two years of a dog's life count as 10.5 dog years each.</li>
+      <li>Each year following equates to 4 dog years.</li>
+    </ul>
+  </p>
+  <script>
+    // Initializing the myAge variable using constant
+    let myAge = 35;
+
+    // initializing the early years value
+    let earlyYears = 2;
+    earlyYears *= 10.5;
+
+    // Calculating the later years value using myAge variable
+    let laterYears = earlyYears - 2;
+
+    //Multiplying the later years value by 4
+    laterYears *= 4;
+    console.log(`The early years is ${earlyYears}.`);
+    console.log(`The later years is ${laterYears}.`);
+
+    // Calculating my age in Dog years
+    let myAgeInDogYears = earlyYears + laterYears;
+
+    // converting the string to a lowercase
+    let myName = 'Karthik'.toLowerCase();
+
+    console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+  </script>
+</body>
+</html>
