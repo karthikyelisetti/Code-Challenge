@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Kelvin Weather</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-      <p>
-        Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
-        let's convert Kelvin to Celsius, then to Fahrenheit.
-      </p>
-      <script>
-        // Setting the kelvin value to be constant
-        const kelvin = 0;
+  <head>
+    <title>Kelvin Weather</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p>
+      Deep in his mountain-side meteorology lab, the mad scientist Kelvin has
+      mastered weather prediction. let's convert Kelvin to Celsius, then to
+      Fahrenheit.
+    </p>
+    <script>
+      // Setting the kelvin value to be constant
+      const kelvin = 0;
 
-        // converting kelvin to celsius
-        let celsius = kelvin - 273;
+      // converting kelvin to celsius
+      let celsius = kelvin - 273;
 
-        // Converting celsius to fahrenheit
-        let fahrenheit = Math.floor(celsius * (9/5) + 32);
-        console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+      // Converting celsius to fahrenheit
+      let fahrenheit = Math.floor(celsius * (9 / 5) + 32);
+      console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
-        // converting celsius to Newton scale
-        let newton = Math.floor(celsius * (33/100));
-        console.log(`The temperature is ${newton} degrees Newton.`);
-      </script>
-    </body>
+      // converting celsius to Newton scale
+      let newton = Math.floor(celsius * (33 / 100));
+      console.log(`The temperature is ${newton} degrees Newton.`);
+    </script>
+  </body>
 </html>
